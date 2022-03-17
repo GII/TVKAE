@@ -1,5 +1,5 @@
 # TVK_attitude_estimator_code
-Repository containing the source open MATLAB code of a sensor fusion Kalman algorithm for estimating the orientation from inertial and magnetic sensing based on time-varying matrices and quaternions.
+Repository containing the source open MATLAB code of a sensor fusion Kalman algorithm based on time-varying matrices and quaternions and intended for estimating the orientation from inertial and magnetic sensing.
 Authors: Alvaro Deibe, Jose A. Anton Nacimiento, Jesus Cardenal and Fernando Lopez Peña.
 Universidade da Coruña, Spain; 
 
