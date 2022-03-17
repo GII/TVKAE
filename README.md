@@ -12,4 +12,4 @@ This repository contains the following folders and script.
 
 
 When using these codes, please cite: 
-A.Deibe, J.A. Anton Nacimiento, J. Cardenal, and F. Lopez Peña, “A Kalman Filter for Nonlinear Attitude Estimation Using Time Variable Matrices and Quaternions,” Sensors, vol. 20, no. 23, p. 6731, Jan. 2020 [Online]. Available: https://www.mdpi.com/1424- 8220/20/23/6731
+A.Deibe, J.A. Anton Nacimiento, J. Cardenal, and F. Lopez Peña, “A Kalman Filter for Nonlinear Attitude Estimation Using Time Variable Matrices and Quaternions,” Sensors, vol. 20, no. 23, p. 6731, Jan. 2020 [Online]. Available: https://www.mdpi.com/1424-8220/20/23/6731
