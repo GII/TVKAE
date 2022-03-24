@@ -15,7 +15,8 @@ This repository contains the following folders and script.
 
 The Time-Varying Kalman Attitude Estimator (TVKAE) is described and discussed in: 
 
-A. Deibe, J.A. Anton Nacimiento, J. Cardenal, and F. Lopez Peña, “A Kalman Filter for Nonlinear Attitude Estimation Using Time Variable Matrices and Quaternions,” Sensors, vol. 20, no. 23, p. 6731, Nov. 2020 [Online]. Available: https://www.mdpi.com/1424-8220/20/23/6731
+A. Deibe, J.A. Anton Nacimiento, J. Cardenal, and F. Lopez Peña, “A Kalman Filter for Nonlinear Attitude Estimation Using Time Variable 
+Matrices and Quaternions,” Sensors, vol. 20, no. 23, p. 6731, Nov. 2020 [Online]. Available: https://www.mdpi.com/1424-8220/20/23/6731
 
 The extended version, tailored for low-acceleration applications, and including a weight in the acceleration upgrade, comes in:
 
@@ -30,4 +31,5 @@ Caruso et al. repositories, at:
   - Github: "https://github.com/marcocaruso/mimu_optical_dataset_caruso_sassari" or at
   - IEEEDataPort: "https://ieee-dataport.org/documents/mimuopticalsassaridataset".
 
-For the programs to work with these data, it is neccesary that this folder contains the function "correctQuat.m", available at those repositories.
+For the programs to work with these data, it is neccesary that this folder contains the function "correctQuat.m", available 1n those 
+repositories.
