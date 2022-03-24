@@ -23,3 +23,11 @@ A. Deibe, J.A. Anton Nacimiento, J. Cardenal, and F. Lopez Peña, "A Time–Vary
 Submitted to IEEE Transactions on Instrumentation and Measurements, 2022
 
 If you use information from this repository, you must cite those documents accordingly.
+
+The data used to perform the evaluation of the estimator presented in this last document were taken from version 4 of the files in the 
+Caruso et al. repositories, at:
+
+  - Github: "https://github.com/marcocaruso/mimu_optical_dataset_caruso_sassari" or at
+  - IEEEDataPort: "https://ieee-dataport.org/documents/mimuopticalsassaridataset".
+
+For the programs to work with these data, it is neccesary that this folder contains the function "correctQuat.m", available at those repositories.
