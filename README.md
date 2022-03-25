@@ -1,6 +1,6 @@
 # TVK_attitude_estimator_code
-Repository containing the MATLAB open source code for a Kalman sensor fusion algorithm based on 
-quaternions and time-varying matrices, for estimating the orientation from inertial and magnetic sensing.
+Repository containing the MATLAB open source code for a Kalman sensor fusion algorithm based on quaternions 
+and time-varying matrices (TVKAE), for estimating the orientation from inertial and magnetic sensing.
 
 Authors: Alvaro Deibe, Jose A. Anton Nacimiento, Jesus Cardenal and Fernando Lopez Peña.
 Universidade da Coruña, Spain; 
@@ -13,7 +13,7 @@ This repository contains the following folders and script.
 -
 
 
-The Time-Varying Kalman Attitude Estimator (TVKAE) is described and discussed in: 
+The TVKAE is described and discussed in: 
 
 A. Deibe, J.A. Anton Nacimiento, J. Cardenal, and F. Lopez Peña, 
 “A Kalman Filter for Nonlinear Attitude Estimation Using Time Variable Matrices and Quaternions,” 
