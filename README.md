@@ -34,5 +34,5 @@ version 4 of the files in the Caruso et al. repositories, at:
   - Github: "https://github.com/marcocaruso/mimu_optical_dataset_caruso_sassari" or at
   - IEEEDataPort: "https://ieee-dataport.org/documents/mimuopticalsassaridataset".
 
-For the programs to work with these data, it is neccesary that this folder contains the function "correctQuat.m", 
-available 1n those repositories.
+In order for the programs to work with these data, it is necessary that this folder contains the function 
+"correctQuat.m", available 1n those repositories.
