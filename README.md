@@ -29,7 +29,7 @@ version 4 of the files in the Caruso et al. repositories, at:
   - IEEEDataPort: "https://ieee-dataport.org/documents/mimuopticalsassaridataset".
 
 In order for the programs to work with these data, it is necessary that this folder contains the function 
-"correctQuat.m", available 1n those repositories.
+"correctQuat.m", available in the GitHub repository.
 
 This repository contains the following folders and script.
 
