@@ -31,7 +31,7 @@ version 4 of the files in the Caruso et al. repositories, at:
 In order for the programs to work with these data, it is necessary that this folder contains the function 
 "correctQuat.m", available in the GitHub repository.
 
-This repository contains the following folders and script.
+# This repository contains the following folders and script.
 
 - /Data: This directory must contain the data and scripts that feed the input for TVKAE to work.
 - TVKAE.m: MATLAB master script for TVKAE 
