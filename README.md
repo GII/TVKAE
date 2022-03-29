@@ -36,4 +36,4 @@ In order for the programs to work with these data, it is necessary that this fol
 - /Data: This directory must contain the data and scripts that feed the input for TVKAE to work.
 - TVKAE.m: MATLAB master script for TVKAE 
 - errEvalTVKAE.m: Evaluates the TVKAE attitude estimation error for a defined maneuver
-- verification.m: Evaluates the TVKAE attitude estimation error in the nine different experimental scenarios by Caruso et al.
+- verification.m: Evaluates the TVKAE attitude estimation error in the nine different experimental scenarios (as by Caruso et al).
