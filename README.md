@@ -2,7 +2,7 @@
 Repository containing the MATLAB open source code for a Kalman sensor fusion algorithm based on quaternions 
 and time-varying matrices (TVKAE), for estimating the orientation from inertial and magnetic sensing.
 
-Authors: Alvaro Deibe, Jose A. Anton Nacimiento, Jesus Cardenal and Fernando Lopez Peña.
+Authors: Alvaro Deibe, Jose A. Anton Nacimiento, Jesus Cardenal and Fernando López Peña.
 Universidade da Coruña, Spain; 
 
 Last modified: 28/03/2022
