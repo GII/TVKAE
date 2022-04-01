@@ -5,7 +5,7 @@ and time-varying matrices (TVKAE), for estimating the orientation from inertial 
 Authors: Alvaro Deibe, Jose A. Anton Nacimiento, Jesus Cardenal and Fernando López Peña.
 Universidade da Coruña, Spain; 
 
-Last modified: 28/03/2022
+Last modified: 01/04/2022
 
 The TVKAE is described and discussed in: 
 
@@ -34,6 +34,7 @@ In order for the programs to work with these data, it is necessary that this fol
 # This repository contains the following folders and script.
 
 - /Data: This directory must contain the data and scripts that feed the input for TVKAE to work.
-- TVKAE.m: MATLAB master script for TVKAE 
-- errEvalTVKAE.m: Evaluates the TVKAE attitude estimation error for a defined maneuver
-- verification.m: Evaluates the TVKAE attitude estimation error in the nine different experimental scenarios (as by Caruso et al).
+- TVKAE.m: MATLAB code for de author's TVKF Attitude Estimator (TVKAE). 
+- errEvalTVKAE.m: Matlab code for evaluation of the attitude estimation error according to Caruso et al. method.
+- verification.m:  Matlab code for calculating the TVKAE error with beta=0 (TV0) in the nine scenarios defined by Caruso et al. 
+This error evaluation follows Caruso et al. proposed method.
