@@ -17,7 +17,7 @@ When using information from this repository, please cite the following works:
 
 - TVKAE.m: MATLAB code for the TVKAE.
 - errEvalTVKAE.m: Matlab code for evaluating the attitude estimation error according to Caruso et al. methodology.
-- verification.m: Matlab code for verifying the TVKAE error with beta=0 (TV0) as it has been published in table 2 in [[2]](#referencia2).
+- verification.m: Matlab code for verification of the TVKAE error with beta=0 (TV0) as it has been published in table 2 in [[2]](#referencia2).
 
 - /Data: This folder is empty. In order for the algorithm to work, it should contain the data (fast_v5.mat, medium_v5.mat and slow_v5.mat) from Caruso et al. repositories, at:
 
