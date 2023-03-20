@@ -1,26 +1,19 @@
+% When using this file, please cite the following works:
+% [1] A. Deibe, J.A. Anton Nacimiento, J. Cardenal, and F. López Peña, "A
+%     Kalman Filter for Nonlinear Attitude Estimation Using Time Variable
+%     Matrices and Quaternions," Sensors, vol. 20, no. 23, p. 6731, Nov.
+%     2020, https://doi.org/10.3390/s20236731
+% [2] A. Deibe, J.A. Anton Nacimiento, J. Cardenal, and F. López Peña, "A
+%     Time–Varying Kalman Filter for Low–Acceleration Attitude Estimation",
+%     Measurement, 2023, https://doi.org/10.1016/j.measurement.2023.112729.
+% 
 function [errTVKAE]=errEvalTVKAE(stDevIn,IMUType,speedIndex,beta,verbose)
 %Evaluates attitude estimation error of a defined manoeuvre.
 %
 %   [errTVKAE]=errEvalTVKAE(miVar,IMUIndex,speedIndex,beta,verbose)
 %   This function uses the TVKAE algorithm to evaluates the attitude
-%   estimation error for a defined manoeuvre.
-%
-%   For a complete explanation of the TVKAE algoritm, see Deibe et al., "A
-%   Kalman filter for nonlinear attitude estimation using time 
-%   matrices and quaternions", Sensors, vol. 20, no. 23, Nov. 2020,
-%   https://doi.org/10.3390/s20236731, and Deibe et al., "A Time–Varying
-%   Kalman Filter for Low–Acceleration Attitude Estimation", submitted to
-%   IEEE TIM, 2022.
-%
-%   For the methodology to compute the error, and a description of the
-%   defined manoeuvres, see Caruso et al., "Analysis of the Accuracy of Ten
-%   Algorithms for Orientation Estimation Using Inertial and Magnetic
-%   Sensing under Optimal Conditions: One Size Does Not Fit All", Sensors,
-%   vol. 21, no. 7, p. 2543, Apr. 2021, https://doi.org/10.3390/s21072543,
-%   and Caruso et al., "Orientation Estimation Through Magneto-Inertial
-%   Sensor Fusion: A Heuristic Approach for Suboptimal Parameters Tuning",
-%   IEEE Sensors Journal, vol. 21, no. 3, pp. 3408-3419, 2021,
-%   https://doi.org/10.1109/JSEN.2020.3024806.
+%   estimation error for a defined manoeuvre. For a complete explanation of
+%   the TVKAE algorithm, see [1] and [2].
 %
 % INPUT PARAMETERS:
 %   stDevIn: standard deviations input vector:
@@ -43,6 +36,17 @@ function [errTVKAE]=errEvalTVKAE(stDevIn,IMUType,speedIndex,beta,verbose)
 %
 % OUTPUT PARAMETERS:
 %   errorTVKAE: Total manoeuvre attitude error (in degrees)
+
+% For a detailed description of the experimental scenarios, see:
+% Caruso et al., "Analysis of the Accuracy of Ten Algorithms for
+% Orientation Estimation Using Inertial and Magnetic Sensing under Optimal
+% Conditions: One Size Does Not Fit All", Sensors, vol. 21, no. 7, p. 2543,
+% Apr. 2021, doi.org/10.3390/s21072543,
+% and:
+% Caruso et al., "Orientation Estimation Through Magneto-Inertial Sensor
+% Fusion: A Heuristic Approach for Suboptimal Parameters Tuning", IEEE
+% Sensors Journal, vol. 21, no. 3, pp. 3408-3419, 2021,
+% doi.org/10.1109/JSEN.2020.3024806.
 
 T0=clock; % to compute elapsed time
 
