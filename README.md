@@ -24,7 +24,7 @@ When using information from this repository, please cite the following works:
   - GitHub: "https://github.com/marcocaruso/mimu_optical_dataset_caruso_sassari" or at
   - IEEEDataPort: "https://ieee-dataport.org/documents/mimuopticalsassaridataset".
 
-It is also necessary that the user main folder contains the function "correctQuat.m", available at the Caruso et al. sensor_fusion_algorithm_codes repository:
+It is also necessary that the user main folder contains the function "correctQuat.m", available at Caruso et al. sensor_fusion_algorithm_codes repository:
 
   - GitHub: "https://github.com/marcocaruso/sensor_fusion_algorithm_codes"
 
