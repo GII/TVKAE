@@ -16,7 +16,7 @@ When using information from this repository, please cite the following works:
 ## This repository is organized as follows:
 
 - TVKAE.m: MATLAB code for the TVKAE.
-- errEvalTVKAE.m: Matlab code for evaluating the attitude estimation error according to Caruso et al. methodology.
+- errEvalTVKAE.m: Matlab code for evaluating the attitude estimation error according to Caruso et al. methodology [[3]](#referencia3).
 - verification.m: Matlab code for verification of the TVKAE error with beta=0 (TV0) as it has been published in table 2 in [[2]](#referencia2).
 
 - /Data: This folder is empty. In order for the algorithm to work, it should contain the data (fast_v5.mat, medium_v5.mat and slow_v5.mat) from Caruso et al. repositories, at:
@@ -27,3 +27,6 @@ When using information from this repository, please cite the following works:
 It is also necessary that the user main folder contains the function "correctQuat.m", available at the Caruso et al. sensor_fusion_algorithm_codes repository:
 
   - GitHub: "https://github.com/marcocaruso/sensor_fusion_algorithm_codes"
+
+## Other references
+3. <a id="referencia3"></a>M. Caruso, A. M. Sabatini, M. Knaflitz, M. Gazzoni, U. D. Croce and A. Cereatti, "Orientation Estimation Through Magneto-Inertial Sensor Fusion: A Heuristic Approach for Suboptimal Parameters Tuning," in IEEE Sensors Journal, vol. 21, no. 3, pp. 3408-3419, 1 Feb.1, 2021, https://doi.org/10.1109/JSEN.2020.3024806.
