@@ -9,7 +9,7 @@
 % 
 % This script evaluates the TVKAE attitude estimation error in nine
 % different experimental scenarios. The computed errors are in Deibe et
-% al. [2]. For a complete explanation of the TVKAE algoritm, see also [1].
+% al. [2]. For a complete explanation of the TVKAE algorithm, see also [1].
 %
 % For a detailed description of the experimental scenarios, see:
 % Caruso et al., "Analysis of the Accuracy of Ten Algorithms for

@@ -1,3 +1,12 @@
+% When using this file, please cite the following works:
+% [1] A. Deibe, J.A. Anton Nacimiento, J. Cardenal, and F. López Peña, "A
+%     Kalman Filter for Nonlinear Attitude Estimation Using Time Variable
+%     Matrices and Quaternions," Sensors, vol. 20, no. 23, p. 6731, Nov.
+%     2020, https://doi.org/10.3390/s20236731
+% [2] A. Deibe, J.A. Anton Nacimiento, J. Cardenal, and F. López Peña, "A
+%     Time–Varying Kalman Filter for Low–Acceleration Attitude Estimation",
+%     Measurement, 2023, https://doi.org/10.1016/j.measurement.2023.112729.
+% 
 function [X,P]=TVKAE(X,Z,P,Dt,Q,R,g,h,alphaCos,alphaSin,beta)
 %Time Varying Kalman Filter for Attitude Estimation
 %
@@ -6,12 +15,8 @@ function [X,P]=TVKAE(X,Z,P,Dt,Q,R,g,h,alphaCos,alphaSin,beta)
 %   Filter formulation. The attitude estimation in time step i+1 is
 %   computed from state vector X on time step i, and sensors data in time
 %   step i+1.
-%   For a complete explanation see Deibe et al. "A Kalman filter for
-%   nonlinear attitude estimation using time variable matrices and
-%   quaternions", Sensors, vol. 20, no. 23, Nov. 2020,
-%   https://doi.org/10.3390/s20236731, and Deibe et al. "A Time–Varying
-%   Kalman Filter for Low–Acceleration Attitude Estimation", submitted to
-%   IEEE TIM, 2022.
+%
+%   For a complete explanation of the TVKAE algorithm, see [1] and [2].
 %
 %   INPUT PARAMETERS:
 %     X: state vector in time step i
@@ -69,12 +74,7 @@ X=X_+K*(Z-H*X_);
 % NORMALIZATION
 X(4:7)=X(4:7)/norm(X(4:7));
 
-
 % Covariance matrix update
 P=(eye(10)-K*H)*P_;
-
-% It can also be calculated using Joseph form:
-% IKH=eye(10)-K*H;
-% P=IKH*P_*IKH'+K*R*K';
 
 end
